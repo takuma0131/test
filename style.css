@@ -12,5 +12,6 @@ p {
   font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro", sans-serif;
   font-weight: bold;
   line-height: 1.7;
-  text-align: justify;
+  margin: 0 auto;
+  width: fit-content;
 }
