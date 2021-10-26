@@ -1,17 +1,12 @@
 @charset "UTF-8";
-body {
-  background-color: #fffeee;
+.item {
+  background: #0bd;
+  color: #fff;
+  padding: 10px;
 }
-h1 {
-  font-family: serif;
-}
-h2 {
-  font-family: "遊ゴシック体", "Yu Gothic", Yugothic, sans-serif;
-}
-p {
-  font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro", sans-serif;
-  font-weight: bold;
-  line-height: 1.7;
-  margin: 0 auto;
-  width: fit-content;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-rows: 200px 200px;
 }
