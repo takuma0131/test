@@ -76,8 +76,9 @@ img {
   background-position: center top;
 }
 #home {
-  background-image: url(./images/main-bg.jpg);
+  background-image: url(./images/main-bg.jpg), linear-gradient(#c9ffbf, #ffafbd);
   min-height: 100vh;
+  background-blend-mode: luminosity;
 }
 #home .page-title {
   text-transform: none;
