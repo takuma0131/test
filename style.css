@@ -184,8 +184,40 @@ aside p {
   order: 1;
 }
 .ad img {
-  width: 300px;
+  width: 130px;
   height: 600px;
+}
+/*----MENU----*/
+#menu {
+  background-image: url(./images/menu-bg.jpg);
+  min-height: 80vh;
+}
+.menu-content {
+  max-width: 560px;
+  margin-top: 10%;
+}
+.menu-content .page-title {
+  text-align: center;
+}
+.menu-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 0;
+}
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 6%;
+  margin-bottom: 50px;
+}
+.big-box {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+.big-box img {
+  height: 95.4%;
+  width: 100%;
+  object-fit: cover;
 }
 
 /*-----モバイル版-----*/
@@ -216,5 +248,16 @@ aside p {
   article,
   aside {
     width: 100%;
+  }
+  /*MENU*/
+  .menu-content {
+    margin-top: 20%;
+  }
+  .big-box {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .big-box img {
+    height: auto;
   }
 }
