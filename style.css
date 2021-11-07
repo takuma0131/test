@@ -224,6 +224,7 @@ aside p {
   background-image: url(./images/contact-bg.jpg);
   min-height: 100vh;
 }
+/*------フォーム----*/
 form div {
   margin-bottom: 14px;
 }
@@ -232,14 +233,17 @@ label {
   margin-bottom: 10px;
   display: block;
 }
-input[type="text"] input[type="email"] textarea {
+input[type="text"],
+input[type="email"],
+textarea {
   background: rgba(255, 255, 255, 0.5);
   border: 1px #fff solid;
   border-radius: 5px;
   padding: 10px;
   font-size: 1rem;
 }
-input[type0="text"] input[type="email"] {
+input[type="text"],
+input[type="email"] {
   width: 100%;
   max-width: 240px;
 }
